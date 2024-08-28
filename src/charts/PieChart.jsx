@@ -35,6 +35,8 @@ function Slice({ startAngle, endAngle, radius, thickness, color }) {
   );
 }
 
+//pie not working fully.... 
+
 // PieChart component
 function PieChart({ data, radius = 5, thickness = 1 }) {
   const total = data.reduce((sum, datum) => sum + datum.value, 0);
